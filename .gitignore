@@ -1,0 +1,5 @@
+.vscode
+vendor/
+docker-compose.yml
+*.txt
+*.env

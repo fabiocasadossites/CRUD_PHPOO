@@ -1,0 +1,23 @@
+{
+  "name": "casadossites/crudphp",
+  "description": "Crud com PHPOO",
+  "minimum-stability": "stable",
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "Fabio Augusto",
+      "email": "fabio@casadossites.com",
+      "role": "Developer",
+      "homepage": "https://www.casadossites.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "phpmailer/phpmailer": "6.1.7",
+    "firebase/php-jwt": "^5.4"
+  }
+}

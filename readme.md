@@ -89,7 +89,7 @@ use \App\Db\Database;
 $where = 'status=1';
 $order = '';
 $limit = '';
-$lista = (new Database('BANK_TABLE'))->select($where)->fetchAll(PDO::FETCH_CLASS);
+$lista = (new Database('BANK_TABLE'))->select($where, $order, $limit)->fetchAll(PDO::FETCH_CLASS);
   if (!$lista) {
       echo 'There are no users in the bank';
     } else {
